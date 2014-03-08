@@ -38,6 +38,15 @@
       </feature>
     </config-file>
 
+    <!--
+    <config-file target="*-Info.plist" parent="CFBundleName">
+        <string>바나나톡</string>
+    </config-file>
+  -->
+    <config-file target="*-Info.plist" parent="CFBundleDisplayName">
+        <string>바나나톡</string>
+    </config-file>
+
     <header-file src="src/ios/Echo.h" />
 
     <source-file src="src/ios/Echo.m" />
